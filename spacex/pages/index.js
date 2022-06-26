@@ -55,11 +55,11 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div className="moon"></div>
             </div>
           </main>
         </div>
       </div>
-      <div className="moon"></div>
     </>
   )
 }

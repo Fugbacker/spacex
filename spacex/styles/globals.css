@@ -160,7 +160,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: -6%;
+  margin-top: 2%;
 }
 
 .flexContent {
@@ -227,12 +227,13 @@ a {
 }
 .moon {
   display: flex;
-  background: url(/_next/static/media/moon.a080a647.png) no-repeat center center;
+  background: url(../public/images/moon.png) no-repeat center center;
   height: 100vh;
-  width: 100%;
+  width: 30%;
   position: absolute;
   z-index: 1000;
-  top: 0;
+  top: 3%;
+  left: 35%;
 }
 
 .line {
