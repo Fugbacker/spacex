@@ -21,7 +21,8 @@ a {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  background: url(../public/images/background3.jpg) no-repeat center center;
+  background: url(../public/images/background3.jpg) center center;
+
   position: relative;
   z-index: 0;
 }

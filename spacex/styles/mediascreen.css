@@ -1,3 +1,9 @@
+@media only screen and (min-height: 1081px) {
+  .first {
+    background: url(../public/images/background_big_vertical.png)
+  }
+}
+
 @media (max-width: 1100px) {
   .content {
     width: 100%;
@@ -8,6 +14,14 @@
 
   .mainContent {
     margin-top: -9%;
+  }
+
+  .flexContent {
+    margin-top: 15%;
+  }
+
+  .tripinfo {
+    margin-left: 20px;
   }
 
   .moon {
@@ -58,12 +72,10 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 80px;
+    top: 50px;
     right: 0;
-    z-index: 1;
     list-style-type: none;
     width: 100%;
-    border-bottom: 1px #1D1D1D;
     padding:10px;
     background-color: rgba(13, 13, 19, 0.9);
     transition: all 0.3s ease;
@@ -121,5 +133,15 @@
   }
   .line {
     display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .header__logo {
+    margin-left: 0;
+  }
+
+  .tripinfo {
+    margin-left: 0;
   }
 }

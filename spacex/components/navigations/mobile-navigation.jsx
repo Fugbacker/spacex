@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import NavLinks from './navlinks'
 import {CgMenuGridR} from 'react-icons/cg'
 import {CgClose} from 'react-icons/cg'
