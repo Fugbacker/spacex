@@ -214,10 +214,10 @@ a {
   display: flex;
   background: url(../public/images/moon.png) no-repeat center center;
   height: 100vh;
-  width: 20%;
+  width: 24%;
   position: absolute;
   z-index: 1000;
-  left: 40%;
+  left: 38%;
 }
 
 .line {
