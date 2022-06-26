@@ -4,7 +4,6 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    overflow-y:hidden;
 }
 
 a {
@@ -35,7 +34,7 @@ a {
   border-bottom: 1px solid #1D1D1D;
   z-index: 4444;
   position: relative;
-  background: url(../public/images/background3.jpg) no-repeat;
+  background: url(../public/images/background3.jpg);
   background-color: rgba(13, 13, 19, 0.5);
 }
 
