@@ -139,3 +139,13 @@
     margin-left: 0;
   }
 }
+
+@media (max-width: 350px) {
+  .trip {
+    font-size: 42px;
+  }
+
+  .item1, .item2, .item3, .item4 {
+    width: 46%;
+  }
+}
