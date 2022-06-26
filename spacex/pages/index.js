@@ -31,7 +31,6 @@ export default function Home() {
                       <img className="line" src={line.src}></img>
                     </div>
                   </div>
-                  <div className="moon"></div>
                   <div className="goodList">
                     <div className="item1">
                       <p>Мы</p>
@@ -60,6 +59,7 @@ export default function Home() {
           </main>
         </div>
       </div>
+      <div className="moon"></div>
     </>
   )
 }

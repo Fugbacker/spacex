@@ -227,11 +227,12 @@ a {
 }
 .moon {
   display: flex;
-  background: url(../public/images/moon.png) no-repeat center center;
-  height: auto;
-  width: 35%;
-  position: relative;
+  background: url(/_next/static/media/moon.a080a647.png) no-repeat center center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
   z-index: 1000;
+  top: 0;
 }
 
 .line {
