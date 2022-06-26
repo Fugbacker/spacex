@@ -21,8 +21,6 @@ a {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  background: url(../public/images/background3.jpg) center center;
-
   position: relative;
   z-index: 0;
 }
@@ -32,6 +30,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: url(../public/images/background3.jpg) center center;
 }
 
 .content {
@@ -49,6 +48,7 @@ a {
   border-bottom: 1px solid #1D1D1D;
   z-index: 4444;
   position: relative;
+  background: url(../public/images/background3.jpg) no-repeat;
   background-color: rgba(13, 13, 19, 0.5);
 }
 
@@ -160,7 +160,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 2%;
 }
 
 .flexContent {
@@ -232,7 +231,6 @@ a {
   width: 30%;
   position: absolute;
   z-index: 1000;
-  top: 3%;
   left: 35%;
 }
 
