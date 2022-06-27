@@ -129,6 +129,10 @@
 }
 
 @media (max-width: 350px) {
+  .header {
+    margin: 0;
+  }
+
   .trip {
     font-size: 42px;
   }

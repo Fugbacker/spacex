@@ -27,25 +27,21 @@ a {
 
 /* Header */
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.headerContainer {
   border-bottom: 1px solid #1D1D1D;
-  z-index: 4444;
-  position: relative;
   background: url(../public/images/background3.jpg);
   background-color: rgba(13, 13, 19, 0.5);
 }
 
-.header__logo {
-  display: inline-flex;
+.header {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
+  margin: 0 35px;
+}
+
+.header__logo {
   cursor: pointer;
-  background: none !important;
-  position: relative;
-  margin-left: 38px;
 }
 
 .header__logo-img {
@@ -77,12 +73,6 @@ a {
   linear-gradient(to right, #fff 5px, transparent 0, transparent calc(100% - 5px), #fff 0) 0 100% / 100% 1px no-repeat,
   linear-gradient(to bottom, #fff 5px, transparent 0, transparent calc(100% - 5px), #fff 0) 0 0 / 1px 100% no-repeat,
   linear-gradient(to bottom, #fff 5px, transparent 0, transparent calc(100% - 5px), #fff 0) 100% 0 / 1px 100% no-repeat;
-}
-
-.header__menu {
-  margin-right: 35px;
-  float: right;
-  padding-top: 5px;
 }
 
 .header__menu-link {
