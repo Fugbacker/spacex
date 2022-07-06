@@ -17,6 +17,7 @@ a {
 
 .main {
   background: url(../public/images/background3.jpg) center center;
+  background-size: cover;
 }
 
 .content {

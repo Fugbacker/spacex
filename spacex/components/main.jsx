@@ -41,7 +41,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-      <div className="moon"></div>
+      {/* <div className="moon"></div> */}
     </div>
  )
 }

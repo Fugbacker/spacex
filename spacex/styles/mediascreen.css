@@ -65,6 +65,7 @@
     padding:10px;
     background-color: rgba(13, 13, 19, 0.9);
     transition: all 0.3s ease;
+    z-index: 10;
   }
 
   .mobileMenu ul li{
